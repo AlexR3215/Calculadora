@@ -17,7 +17,7 @@ public class Calculadora {
      */
     public static void main(String[] args) {
     Scanner preg = new Scanner(System.in);
-    
+        int res=0;
         int num1 = 0, num2 = 0;
         
         System.out.println("Introduzca un numero:");
@@ -26,13 +26,15 @@ public class Calculadora {
         num2 = preg.nextInt();
         
         System.out.println("1.-Suma");
-
-        
-        if(res == 1){
-            int res1 = num1+num2;
+        System.out.println("2.-Dividir")
+        res=preg.nextInt
+        if(res == 1){;
         System.out.println(num1+num2);
         }
-
+        if(res == 2){;
+            
+        System.out.println(num1/num2);
+        }
  
     }
     
