@@ -26,6 +26,8 @@ public class Calculadora {
         num2 = preg.nextInt();
         
         System.out.println("1.-Suma");
+        System.out.println("2.-Resta");
+        System.out.println("3.-Multiplicacion");
         res=preg.nextInt();
         
         if(res == 1){
@@ -33,6 +35,9 @@ public class Calculadora {
         }
         if(res == 2){
         System.out.println(num1-num2);
+        }
+        if(res == 3){
+        System.out.println(num1*num2);
         }
 
  
