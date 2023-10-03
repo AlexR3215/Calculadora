@@ -26,13 +26,17 @@ public class Calculadora {
         num2 = preg.nextInt();
         
         System.out.println("1.-Suma");
-
+        System.out.println("2.-Potencias");
+        res =preg.nextInt();
         
         if(res == 1){
             int res1 = num1+num2;
-        System.out.println(num1-num2);
+        System.out.println(res1);
         }
-
+        if(res == 2){
+            int res1 = num1**num2;
+        System.out.println(res1);
+        }
  
     }
     
